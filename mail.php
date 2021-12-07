@@ -1,16 +1,13 @@
-<?php
-if(isset( $_POST['name']))
-$name = $_POST['name'];
-if(isset( $_POST['email']))
-$email = $_POST['email'];
-if(isset( $_POST['message']))
-$message = $_POST['message'];
-if(isset( $_POST['subject']))
-$subject = $_POST['subject'];
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thank you</title>
 
-$content="From: $name \n Email: $email \n Message: $message";
-$recipient = "5kidzkandy@gmail.com";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent!";
-?>
+	<h1><title>Thank you for reaching out to us! we'll get back to you as soon as we can!</title>
+</head>
+<body>
+
+</body>
+</html>
